@@ -7,11 +7,20 @@
 
 import SwiftUI
 
+
+
+
+
 @main
 struct sirtetApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+//            DragView()
         }
     }
 }
+
+
+
+

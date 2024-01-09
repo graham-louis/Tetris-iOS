@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500A48902B48688E005A2357 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A488F2B48688E005A2357 /* TestView.swift */; };
+		500A48922B488ED4005A2357 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A48912B488ED4005A2357 /* Piece.swift */; };
 		50E63B722B44D885002EB04E /* sirtetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E63B712B44D885002EB04E /* sirtetApp.swift */; };
 		50E63B742B44D885002EB04E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E63B732B44D885002EB04E /* ContentView.swift */; };
 		50E63B762B44D886002EB04E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E63B752B44D886002EB04E /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		50E63B832B44D886002EB04E /* sirtetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E63B822B44D886002EB04E /* sirtetTests.swift */; };
 		50E63B8D2B44D886002EB04E /* sirtetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E63B8C2B44D886002EB04E /* sirtetUITests.swift */; };
 		50E63B8F2B44D886002EB04E /* sirtetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E63B8E2B44D886002EB04E /* sirtetUITestsLaunchTests.swift */; };
+		50E63C062B45F837002EB04E /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E63C052B45F837002EB04E /* GameLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		500A488F2B48688E005A2357 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		500A48912B488ED4005A2357 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
 		50E63B6E2B44D885002EB04E /* sirtet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sirtet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E63B712B44D885002EB04E /* sirtetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sirtetApp.swift; sourceTree = "<group>"; };
 		50E63B732B44D885002EB04E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,7 @@
 		50E63B882B44D886002EB04E /* sirtetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sirtetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E63B8C2B44D886002EB04E /* sirtetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sirtetUITests.swift; sourceTree = "<group>"; };
 		50E63B8E2B44D886002EB04E /* sirtetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sirtetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50E63C052B45F837002EB04E /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				50E63B732B44D885002EB04E /* ContentView.swift */,
 				50E63B752B44D886002EB04E /* Assets.xcassets */,
 				50E63B772B44D886002EB04E /* Preview Content */,
+				50E63C052B45F837002EB04E /* GameLogic.swift */,
+				500A488F2B48688E005A2357 /* TestView.swift */,
+				500A48912B488ED4005A2357 /* Piece.swift */,
 			);
 			path = sirtet;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500A48902B48688E005A2357 /* TestView.swift in Sources */,
 				50E63B742B44D885002EB04E /* ContentView.swift in Sources */,
+				500A48922B488ED4005A2357 /* Piece.swift in Sources */,
+				50E63C062B45F837002EB04E /* GameLogic.swift in Sources */,
 				50E63B722B44D885002EB04E /* sirtetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -430,6 +442,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +472,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
